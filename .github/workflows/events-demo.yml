@@ -8,8 +8,8 @@ on:
     branches:
       - main
       - dev
-      - feature/** # anything starting with feature/ and continuing with any
-                   #  combo of characters, including more slashes
+      - 'feature/**' # anything starting with feature/ and continuing with any
+                     #  combo of characters, including more slashes
     paths-ignore:
       - '.github/workflows/*'
 jobs:
